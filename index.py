@@ -5,5 +5,5 @@ app = FastAPI()
 
 
 @app.get("/ping")
-def delete_todo():
+def check_ping():
     return {"ping": "pong"}
